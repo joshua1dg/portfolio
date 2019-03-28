@@ -1,0 +1,169 @@
+.portfolio-title{
+    position: absolute;
+}
+
+.section-wrapper{
+    padding: 0;
+}
+
+#me-photo{
+max-width: 45%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.skills-third{
+
+    width: 28%;
+}
+
+.skills-images{
+	max-height: 130vh;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+
+.skills-images > img{
+		margin: 4%;
+		max-height: 15%;
+        max-width: 15%;
+}
+
+.color-overlay{
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.view-action-btn{
+    background-color: #008CBA;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 45%;;
+}
+
+.view-code-btn{
+    background-color: #f44336;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.project-title{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.portfolio-text-holder{
+    transform: translate(-50%, -50%);
+}
+
+.detail-code-button-container{
+    text-align: center;
+}
+
+.detail-code-button-container > a{
+        margin-left: 10px;
+}
+
+.contact-card{
+    background-color: black;
+    border-radius: 10px;
+    font-family: initial;
+    width: 45%;
+    height: 15%;
+    color: white;
+    padding: 20px;
+}
+
+.contact-card-info{
+    padding: 5px;
+}
+
+.contact-card-info a{
+    color: white;
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    font-family: initial;
+    width: 45%;
+    height: 15%;
+    color: white;
+    right: 10px;
+    top: 85px;
+    width: 12%;
+    height: 6%;
+    border: black 3px solid;
+}
+
+#homePhotoWrapper{
+    margin: auto 25px 25px 25px;
+}
+
+.socialLinks img{
+    border-radius: 25%;
+    height: 100%;
+    width: 40px;
+}
+
+.footer-number {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 1020px){
+    .section.full-screen {
+        min-height: 45vh;
+    }
+
+    .socialLinks{
+        width: 20%;
+    }
+}
+
+
+/* ________________________REMOVE WHEN ADDING THIRD PROJECT */
+
+#portfolio-grid{
+    margin-top: 8%;
+}
+
+/* ________________________REMOVE WHEN ADDING Form */
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-widget-info{
+    text-align: center;
+}
+
+.contactSocial{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 15vh;
+    width: 100%;
+}
+
+.contactSocial img{
+    height: 100%;
+    margin-left: 5px;
+}
