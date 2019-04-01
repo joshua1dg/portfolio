@@ -41,19 +41,18 @@ max-width: 45%;
     border-radius: 10px;
 }
 
-.view-action-btn{
-    background-color: #008CBA;
+.view-action-btn, .view-code-btn{
+    background-color: transparent;
     font-size: 12px;
     border-radius: 5px;
     margin-left: 10px;
-    width: 45%;;
+    border-color: white;
+    color: white;
+    width: 45%;
 }
 
 .view-code-btn{
-    background-color: #f44336;
-    font-size: 12px;
-    border-radius: 5px;
-    width: 45%;
+    margin-left: 0;
 }
 
 .project-title{
