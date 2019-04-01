@@ -1,0 +1,1 @@
+$('contact-card-info').on('click', function () { $('contact-card-info').append('<a href="mailto:joshug2@uci.edu">joshug2@uci.edu</a>')})
