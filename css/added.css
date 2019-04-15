@@ -153,11 +153,15 @@ max-width: 45%;
     text-align: center;
 }
 
+.contact-card > *{
+    font-family: 'Poppins', sans-serif;
+}
+
 .contactSocial{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
 }
 
